@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #FFEEDB;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campoBtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 225px;
+}
+
+.campo{
+    margin-top: 20px;
+}
+
+.btn{
+    width: 80px;
+    padding: 10px;
+    margin: 4px 8px 0px 4px;
+    border: none;
+    background-color: #502274;
+    box-shadow:  3px 5px 4px black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnLink{
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: 1px 2px 6px black;
+    background-color: #401b5c;
+    
+}
+
+.input_ex7{
+    align-items: center;
+}
+
+.btnhome{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnEx{
+    width: 100px;
+    padding: 14px;
+    margin: 4px 0px 20px 0px;
+    border: none;
+    background-color: #502274;
+    box-shadow:  3px 5px 4px black;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnEx:hover{
+    box-shadow: 1px 2px 6px black;
+    background-color: #401b5c;
+}
+
+.titulo_index{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.1rem;
+}
+
+#submit{
+    width: 80px;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(99, 2, 99);
+    box-shadow: 2px 2px 2px black;
+    margin-top: 16px;
+    justify-content: center;
+}
+
+#submit:hover{
+    box-shadow: none;
+    background-color: #2F243A;
+}
+
+.home{
+    border: none;
+    width: 100px;
+    padding: 10px;
+    background-color: #0E6BA8;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+.home:hover{
+    box-shadow: none;
+    background-color: #0d5a8d;
+}
+
+.resultado{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+
+.resultado_tabuada{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+
+}
+
+label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
